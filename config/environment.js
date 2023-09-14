@@ -3,6 +3,7 @@
 module.exports = function (environment) {
   const ENV = {
     modulePrefix: 'embroider-controller-reproduction',
+    podModulePrefix: 'embroider-controller-reproduction/routes',
     environment,
     rootURL: '/',
     locationType: 'history',
