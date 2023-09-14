@@ -22,7 +22,7 @@ module.exports = function (defaults) {
     ],
     compatAdapters: new Map([
       // ember-swiper6 provides an application controller for no reason, we remove it here.
-      ['ember-swiper6', RemoveApplicationControllerCompatAdapter],
+      // ['ember-swiper6', RemoveApplicationControllerCompatAdapter],
     ]),
   });
 };
